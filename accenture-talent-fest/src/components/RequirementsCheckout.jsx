@@ -27,15 +27,15 @@ class RequirementsCheckout extends Component {
             </label>
           </p>
           <p>
-      <label>
-        <input type="checkbox" disabled="disabled"/>
-        <span>Acreditación de segundo idioma</span>
-      </label>
-    </p>
-  
+            <label>
+              <input type='checkbox' disabled='disabled' />
+              <span>Acreditación de segundo idioma</span>
+            </label>
+          </p>
+
           <Link to='/english-option'>
             <button
-              class='btn waves-effect waves-light'
+              class='btn waves-effect waves-light grey darken-1'
               type='submit'
               name='action'>
               <i class='material-icons right'>star</i>
@@ -44,9 +44,21 @@ class RequirementsCheckout extends Component {
           </Link>
         </form>
         <h3>2. Modalidades de titulación</h3>
-        <label htmlFor=''>
+        <label htmlFor=''></label>
+        <form action=''>
+          <label>
+            <input type='checkbox' disabled='disabled' />
+            <span>Tesis</span>
           </label>
-          <input type='text' value='Completa el primer paso para desbloquear esta opción' readonly />
+
+          <label>
+            <input type='checkbox' disabled='disabled' />
+            <span>Informe de práctica profesional</span>
+          </label>
+        </form>
+        <p>
+          <b>Completa el primer paso para ver más.</b>
+        </p>
       </section>
     );
   }
