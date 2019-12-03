@@ -1,7 +1,8 @@
 // import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+// import { Redirect } from 'react-router-dom';
 
-// import firebaseApp from '../firebase';
+// // import firebase from '../firebase';
+// // import { db } from '../firebase'
 
 // class LoginView extends Component {
 //   constructor(props) {
@@ -23,8 +24,7 @@
 //   onClick = e => {
 //     const nameToSearch = this.state.matricula;
 //     var self = this;
-//     firebaseApp
-//     .firestore()
+//     db
 //     .collection("alumno")
 //     .where('matricula', '===', nameToSearch)
 //     .get()
@@ -58,17 +58,18 @@
 //       <form>
 //         <label htmlFor=''>
 //           <p>Ingresa tu No. de cuenta:</p>
-//           <input type='text' placeholder='No. de cuenta' value={matricula} name={"matricula"} required />
+//           <input type='text' placeholder='No. de cuenta'  required />
 //         </label>
 //         <label htmlFor=''>
 //           <p>Ingresa tu contraseña:</p>
-//           <input type='password' placeholder='Contraseña' required />
+//           <input type='password' value={matricula} name={"matricula"} placeholder='Contraseña'  onChange={this.onChange} required />
 //         </label>
-//         <Link to='/confirm-form'>
-//           <button>Ingresar</button>
-//         </Link>
+      
+//           <button onClick={this.onClick}>Ingresar</button>
+        
+//         {this.state.valid ? <Redirect to="/confirm-form" /> : ""}
 //       </form>
-//</section>
+// </section>
 //     );
 //   }
 // }
