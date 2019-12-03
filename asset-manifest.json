@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/MEX008-Accenture-Talent-Fest/static/css/main.5df9b99d.chunk.css",
-    "main.js": "/MEX008-Accenture-Talent-Fest/static/js/main.af063445.chunk.js",
-    "main.js.map": "/MEX008-Accenture-Talent-Fest/static/js/main.af063445.chunk.js.map",
+    "main.css": "/MEX008-Accenture-Talent-Fest/static/css/main.274d0fde.chunk.css",
+    "main.js": "/MEX008-Accenture-Talent-Fest/static/js/main.fb20b9f3.chunk.js",
+    "main.js.map": "/MEX008-Accenture-Talent-Fest/static/js/main.fb20b9f3.chunk.js.map",
     "runtime-main.js": "/MEX008-Accenture-Talent-Fest/static/js/runtime-main.9e2924f7.js",
     "runtime-main.js.map": "/MEX008-Accenture-Talent-Fest/static/js/runtime-main.9e2924f7.js.map",
     "static/css/2.e315d21c.chunk.css": "/MEX008-Accenture-Talent-Fest/static/css/2.e315d21c.chunk.css",
     "static/js/2.2c5bdf77.chunk.js": "/MEX008-Accenture-Talent-Fest/static/js/2.2c5bdf77.chunk.js",
     "static/js/2.2c5bdf77.chunk.js.map": "/MEX008-Accenture-Talent-Fest/static/js/2.2c5bdf77.chunk.js.map",
     "index.html": "/MEX008-Accenture-Talent-Fest/index.html",
-    "precache-manifest.28389df827fc7f38a6a8d77ac099b9d8.js": "/MEX008-Accenture-Talent-Fest/precache-manifest.28389df827fc7f38a6a8d77ac099b9d8.js",
+    "precache-manifest.a644b599c38d5cae64cd9a7b8836b264.js": "/MEX008-Accenture-Talent-Fest/precache-manifest.a644b599c38d5cae64cd9a7b8836b264.js",
     "service-worker.js": "/MEX008-Accenture-Talent-Fest/service-worker.js",
     "static/css/2.e315d21c.chunk.css.map": "/MEX008-Accenture-Talent-Fest/static/css/2.e315d21c.chunk.css.map",
-    "static/css/main.5df9b99d.chunk.css.map": "/MEX008-Accenture-Talent-Fest/static/css/main.5df9b99d.chunk.css.map"
+    "static/css/main.274d0fde.chunk.css.map": "/MEX008-Accenture-Talent-Fest/static/css/main.274d0fde.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.9e2924f7.js",
     "static/css/2.e315d21c.chunk.css",
     "static/js/2.2c5bdf77.chunk.js",
-    "static/css/main.5df9b99d.chunk.css",
-    "static/js/main.af063445.chunk.js"
+    "static/css/main.274d0fde.chunk.css",
+    "static/js/main.fb20b9f3.chunk.js"
   ]
 }

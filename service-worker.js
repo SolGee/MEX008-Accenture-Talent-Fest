@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MEX008-Accenture-Talent-Fest/precache-manifest.28389df827fc7f38a6a8d77ac099b9d8.js"
+  "/MEX008-Accenture-Talent-Fest/precache-manifest.a644b599c38d5cae64cd9a7b8836b264.js"
 );
 
 self.addEventListener('message', (event) => {
