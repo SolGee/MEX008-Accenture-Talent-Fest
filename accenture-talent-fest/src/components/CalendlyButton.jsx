@@ -7,7 +7,7 @@ class CalendlyButton extends Component {
       <Fragment>
         <div className='calendly-btn-container'>
           <Link to='/modal-english'>
-            <button className='calendly-btn'>Agendar</button>
+            <button className='calendly-btn'>Siguiente</button>
           </Link>
         </div>
       </Fragment>

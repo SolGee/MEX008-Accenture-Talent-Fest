@@ -20,9 +20,7 @@ class EnglishOptions extends Component {
 
           <p>
             Examen acreditación por la Escuela Nacional de Lenguas, Linguística
-            y Traducción. El registro para presentar el EDI sólo podrá
-            realizarse una vez por año. Los aspirantes deberán registrarse al
-            EDI. (2 trámites).
+            y Traducción. (2 trámites).
           </p>
 
           <button className='english-btn btn waves-effect waves-light'>

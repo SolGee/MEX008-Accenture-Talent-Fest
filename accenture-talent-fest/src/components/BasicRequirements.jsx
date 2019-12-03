@@ -5,9 +5,8 @@ class BasicRequirements extends Component {
   render() {
     return (
       <section id='english-section'>
-        <h2>Elige el requisito que necesitas cubrir</h2>
-
-        <form action='#'>
+        <h2>Estos son los requisitos que cubres</h2>
+        <form action=''>
           <p>
             <label>
               <input type='checkbox' checked='checked' disabled='disabled' />
@@ -25,6 +24,10 @@ class BasicRequirements extends Component {
               </span>
             </label>
           </p>
+        </form>
+        <h2>Elige el requisito que necesitas cubrir</h2>
+
+        <form action='#'>
           <p>
             <label>
               <input type='checkbox' />
