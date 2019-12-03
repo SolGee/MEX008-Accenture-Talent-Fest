@@ -5,7 +5,7 @@ class CalendlyButton extends Component {
   render() {
     return (
       <Fragment>
-        <Link to=''>
+        <Link to='/modal-english'>
           <button>Agendar</button>
         </Link>
       </Fragment>

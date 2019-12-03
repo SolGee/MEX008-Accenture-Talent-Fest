@@ -11,6 +11,7 @@ import Calendar from './views/Calendar';
 
 import ModalQuestionView from './views/ModalQuestionView';
 import RequirementsCheckoutView from './views/RequirementsCheckoutView';
+import ModalEnglishView from './views/ModalEnglishView';
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
 
         <Route path='/modal-question' component={ModalQuestionView} />
         <Route path='/requirements-checkout' component={RequirementsCheckoutView} />
+        <Route path='/modal-english' component={ModalEnglishView} />
 
       </Router>
     );
