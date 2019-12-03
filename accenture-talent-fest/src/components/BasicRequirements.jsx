@@ -31,8 +31,7 @@ class BasicRequirements extends Component {
                 className='english-btn btn waves-effect waves-light'
                 type='submit'
                 name='action'>
-                Acreditación segundo idioma
-                <i class='material-icons right'>send</i>
+                Acreditación idioma
               </button>
             </Link>
           </div>
