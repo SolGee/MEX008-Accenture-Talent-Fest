@@ -65,12 +65,13 @@ main {
         opacity: 0 !important;
     }
     #english-certificate .english-btn {
-        border-radius: 25px;
+        border-radius: 5px;
         width: 60%;
+        padding: 0.5rem;
         line-height: 1.8rem;
     }
     #english-certificate div {
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
     .student-form div,
     #english-section div,
@@ -82,6 +83,9 @@ main {
         text-align: center;
         flex-direction: column;
         align-items: center;
+    }
+    #english-section p {
+        text-align: left;
     }
     .student-form button,
     .calendly-btn,
