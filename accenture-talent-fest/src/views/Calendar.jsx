@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from 'react';
+<<<<<<< HEAD
 // import { Link } from 'react-router-dom';
+=======
+>>>>>>> upstream/master
 import Navbar from '../components/Navbar';
 import CalendlyButton from '../components/CalendlyButton';
 
