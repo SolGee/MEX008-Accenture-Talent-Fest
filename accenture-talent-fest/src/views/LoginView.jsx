@@ -80,21 +80,28 @@ import { Link } from 'react-router-dom';
 class LoginView extends Component {
   render() {
     return (
-      <section>
-        <form>
-          <label htmlFor=''>
-            <p>Ingresa tu No. de cuenta:</p>
-            <input type='text' placeholder='No. de cuenta' required />
-          </label>
-          <label htmlFor=''>
-            <p>Ingresa tu contraseña:</p>
-            <input type='password' placeholder='Contraseña' required />
-          </label>
-          <Link to='/confirm-form'>
-            <button>Ingresar</button>
-          </Link>
-        </form>
-      </section>
+      <main>
+        <section id='login-section'>
+          <figure>
+            <img src='./img/logo.png' alt='logo' />
+          </figure>
+          <form>
+            <label htmlFor=''>
+              <p>Ingresa tu No. de cuenta:</p>
+              <input type='text' placeholder='No. de cuenta' required />
+            </label>
+            <label htmlFor=''>
+              <p>Ingresa tu contraseña:</p>
+              <input type='password' placeholder='Contraseña' required />
+            </label>
+            <div>
+              <Link to='/confirm-form'>
+                <button>Ingresar</button>
+              </Link>
+            </div>
+          </form>
+        </section>
+      </main>
     );
   }
 }
