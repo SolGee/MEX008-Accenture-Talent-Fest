@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class BasicRequirements extends Component {
   render() {
     return (
-      <Fragment>
-        <h1>Elige el registro que necesitas cubrir</h1>
+      <section id='english-section'>
+        <h2>Elige el registro que necesitas cubrir</h2>
 
         <form action='#'>
           <p>
@@ -25,17 +25,18 @@ class BasicRequirements extends Component {
               </span>
             </label>
           </p>
-          <Link to='/english-option'>
-            <button
-              class='btn waves-effect waves-light'
-              type='submit'
-              name='action'>
-              Acreditación segundo idioma
-              <i class='material-icons right'>send</i>
-            </button>
-          </Link>
+          <div>
+            <Link to='/english-option'>
+              <button
+                className='english-btn btn waves-effect waves-light'
+                type='submit'
+                name='action'>
+                Acreditación idioma
+              </button>
+            </Link>
+          </div>
         </form>
-      </Fragment>
+      </section>
     );
   }
 }

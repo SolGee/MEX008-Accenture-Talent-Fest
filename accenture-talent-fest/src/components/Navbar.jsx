@@ -20,39 +20,36 @@ class Sidebar extends Component {
           <div>
             <ul id='slide-out' className='sidenav'>
               <li id='user'>
-                <Link to='/profile'>
-                  <figure>
-                    <img src='./assets/LOGO-bubbles.svg' alt='Logo' />
-                  </figure>
-                  <p>Carolina Ramírez J.</p>
-                </Link>
+                <figure id='user-photo'>
+                  <img src='./img/user.png' alt='user' />
+                </figure>
+                <p>Carolina Ramírez Jiménez</p>
               </li>
               <li>
                 <div className='divider' />
               </li>
-              <li>
-                <a href='' className='waves-effect'>
-                  <i className='material-icons'>find_in_page</i>{' '}
+              <li className='waves-effect'>
+                <a href='!#'>
+                  <i className='material-icons'>find_in_page</i>
                   <p>Revisión de documentos</p>
                 </a>
               </li>
-              <li>
-                <a href='' className='waves-effect'>
-                  <i className='material-icons'>school</i>{' '}
+              <li className='waves-effect'>
+                <a href='!#'>
+                  <i className='material-icons'>school</i>
                   <p>Tus opciones de titulación</p>
                 </a>
               </li>
-              <li>
-                <a href='' className='waves-effect'>
-                  <i className='material-icons'>directions_walk</i>{' '}
-                  <p>Tu paso a paso</p>
-                </a>
+              <li className='waves-effect'>
+                <Link to='/requirements-checkout'>
+                  <i className='material-icons'>directions_walk</i> Tu paso a
+                  paso
+                </Link>
               </li>
-              <li>
-                <a className='waves-effect' href='#!'>
-                  <i className='material-icons'>close</i>
-                  <p>Cerrar sesión</p>
-                </a>
+              <li className='waves-effect'>
+                <Link to='/'>
+                  <i className='material-icons'>close</i>Cerrar sesión
+                </Link>
               </li>
             </ul>
             <a href='#' data-target='slide-out' className='sidenav-trigger'>

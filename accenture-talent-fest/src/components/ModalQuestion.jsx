@@ -1,6 +1,7 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
-class EnglishOptions extends Component {
+class ModalQuestion extends Component {
   render() {
     return (
       <section>
@@ -14,12 +15,17 @@ class EnglishOptions extends Component {
             </p>
             <p>
                 2. Examen acreditación por la Escuela Nacional de Lenguas, Linguística y Traducción <br/>
+                El registro para presentar el EDI sólo podrá realizarse una vez por año. Los aspirantes 
+                deberán registrarse al EDI.
             </p>
 
         </article>
+        <Link to="/english-option">
+        <button>Entendido</button>
+        </Link>
       </section>
     );
   }
 }
 
-export default EnglishOptions;
+export default ModalQuestion;
