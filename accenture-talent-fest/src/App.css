@@ -12,11 +12,31 @@ body {
     box-sizing: inherit;
 }
 
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
 @media only screen and (max-width: 768px) {
     section {
-        width: 100vw;
-        margin: 0 auto;
+        width: 90vw;
+        margin: 1rem auto;
         padding: 1rem 1.5rem;
+        height: 95vh;
+        padding: 2rem;
+        background: rgb(255, 255, 255);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1f3f6', GradientType=0);
+        /* IE6-9 */
+        -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.55);
+        -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.55);
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.55);
     }
     nav {
         background-color: transparent !important;
@@ -25,29 +45,14 @@ body {
     nav i {
         color: #272727;
     }
-    section {
-        width: 100vw;
-        min-height: 100vh;
-        margin: 0 auto;
-        padding: 1rem 1.5rem;
-        background: rgb(255, 255, 255);
-        /* Old browsers */
-        background: -moz-linear-gradient( top, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient( top, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient( to bottom, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1f3f6', GradientType=0);
-        /* IE6-9 */
-    }
     h2 {
         margin-top: 1rem !important;
         font-size: 2rem !important;
+        color: rgb(28, 5, 44);
+        font-weight: 700;
     }
     h3 {
         font-size: 1.5rem !important;
-        font-weight: 700;
     }
     .student-form {
         width: 100%;
@@ -60,36 +65,32 @@ body {
         opacity: 0 !important;
     }
     #english-certificate .english-btn {
-        border-radius: 25px;
+        border-radius: 5px;
         width: 60%;
+        padding: 0.5rem;
         line-height: 1.8rem;
     }
     #english-certificate div {
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
     .student-form div,
     #english-section div,
     #english-certificate div,
-    .calendly-btn-container {
+    .calendly-btn-container,
+    #login-section div, .button-agree  {
         display: flex;
         justify-content: center;
         text-align: center;
         flex-direction: column;
         align-items: center;
     }
+    #english-section p {
+        text-align: left;
+    }
     .student-form button,
-    .calendly-btn {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#977ef2+29,2955d9+82 */
-        background: rgb(151, 126, 242) !important;
-        /* Old browsers */
-        background: -moz-linear-gradient( -45deg, rgba(151, 126, 242, 1) 29%, rgba(41, 85, 217, 1) 82%) !important;
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient( -45deg, rgba(151, 126, 242, 1) 29%, rgba(41, 85, 217, 1) 82%) !important;
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient( 135deg, rgba(151, 126, 242, 1) 29%, rgba(41, 85, 217, 1) 82%) !important;
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#977ef2', endColorstr='#2955d9', GradientType=1);
-        /* IE6-9 fallback on horizontal gradient */
+    .calendly-btn,
+    #login-section button, .button-agree {
+        background-color: #311b92 !important;
         height: 3rem !important;
         border-radius: 20rem !important;
         margin: 1rem auto;
@@ -120,35 +121,11 @@ body {
             opacity: 1;
         }
     }
-    #english-section form {
-        border-radius: 2rem;
-        height: auto;
-        background-color: #f1f3f6;
-        border: 2px solid #f1f3f6;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-        -webkit-box-shadow: 30px 30px 80px -15px rgba(55, 84, 170, 0.5), -30px -30px 80px 0.5px rgba(255, 255, 255, 1), inset 10px 10px 20px 0px rgba(255, 255, 255, 0.5);
-        -moz-box-shadow: 30px 30px 80px -15px rgba(55, 84, 170, 0.5), -30px -30px 80px 0.5px rgba(255, 255, 255, 1), inset 10px 10px 20px 0px rgba(255, 255, 255, 0.5);
-        box-shadow: 30px 30px 80px -15px rgba(55, 84, 170, 0.5), -30px -30px 80px 0.5px rgba(255, 255, 255, 1), inset 10px 10px 20px 0px rgba(255, 255, 255, 0.5);
-    }
     .english-btn {
         min-width: 80% !important;
         height: auto !important;
         margin: 1rem 0;
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#77ce06+0,05b5bf+100 */
-        background: rgb(70, 124, 0);
-        /* Old browsers */
-        background: -moz-linear-gradient( -45deg, rgba(70, 124, 0, 1) 0%, rgba(5, 181, 191, 1) 100%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient( -45deg, rgba(70, 124, 0, 1) 0%, rgba(5, 181, 191, 1) 100%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient( 135deg, rgba(70, 124, 0, 1) 0%, rgba(5, 181, 191, 1) 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#77ce06', endColorstr='#05b5bf', GradientType=1);
-        /* IE6-9 fallback on horizontal gradient */
+        background-color: #311b92 !important;
         border-radius: 2rem;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.48);
     }
@@ -179,5 +156,15 @@ body {
     }
     li.waves-effect {
         width: 100%;
+    }
+    #login-section figure {
+        width: 50vw;
+        margin: 5vh auto;
+    }
+    #login-section img {
+        width: 100%;
+    }
+    .student-form p {
+        margin-bottom: 0;
     }
 }

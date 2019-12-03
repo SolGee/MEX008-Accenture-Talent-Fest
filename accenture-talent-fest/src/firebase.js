@@ -1,7 +1,6 @@
+// import 'firebase/auth';
 import * as firebase from 'firebase';
-import firestore from 'firebase/firestore'
-const settings = {timestampsInSnapshots: true};
-const firebaseConfig = {
+const config = {
     apiKey: "AIzaSyCjrD_yDdUQQG8z7z76rqenYrKbNimh2_I",
     authDomain: "unam-titulacion.firebaseapp.com",
     databaseURL: "https://unam-titulacion.firebaseio.com",
@@ -10,7 +9,7 @@ const firebaseConfig = {
     messagingSenderId: "209903135160",
     appId: "1:209903135160:web:d054af68478e1d85ed474d"
   };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.firestore.settings();
-  export default firebase;
+
+export const firebaseApp = firebase.initializeApp(config);
+export let db = firebase.firestore();
+  

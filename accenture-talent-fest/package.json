@@ -2,7 +2,7 @@
     "name": "accenture-talent-fest",
     "version": "0.1.0",
     "private": true,
-    "homepage": ".",
+    "homepage": "https://solgee.github.io/MEX008-Accenture-Talent-Fest/",
     "dependencies": {
         "firebase": "^7.5.0",
         "materialize-css": "^1.0.0",

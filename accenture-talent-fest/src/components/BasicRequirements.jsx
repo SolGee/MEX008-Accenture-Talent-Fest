@@ -5,7 +5,7 @@ class BasicRequirements extends Component {
   render() {
     return (
       <section id='english-section'>
-        <h2>Elige el registro que necesitas cubrir</h2>
+        <h2>Elige el requisito que necesitas cubrir</h2>
 
         <form action='#'>
           <p>
@@ -25,13 +25,19 @@ class BasicRequirements extends Component {
               </span>
             </label>
           </p>
+          <p>
+            <label>
+              <input type='checkbox' />
+              <span>Acreditación idioma.</span>
+            </label>
+          </p>
           <div>
             <Link to='/english-option'>
               <button
                 className='english-btn btn waves-effect waves-light'
                 type='submit'
                 name='action'>
-                Acreditación idioma
+                Confirmar
               </button>
             </Link>
           </div>
