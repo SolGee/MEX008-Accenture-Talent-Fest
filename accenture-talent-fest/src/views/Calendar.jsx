@@ -23,7 +23,7 @@ class Calendar extends Component {
         <div
           className='calendly-inline-widget'
           data-url='https://calendly.com/acreditacionidioma-unam'
-          style={{ minWidth: '320px', height: '580px' }}></div>
+          style={{ minWidth: '320px', height: '80vh' }}></div>
 
         <CalendlyButton />
       </Fragment>

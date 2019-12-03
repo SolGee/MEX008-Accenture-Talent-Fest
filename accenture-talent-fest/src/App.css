@@ -45,6 +45,10 @@ body {
         margin-top: 1rem !important;
         font-size: 2rem !important;
     }
+    h3 {
+        font-size: 1.5rem !important;
+        font-weight: 700;
+    }
     .student-form {
         width: 100%;
     }
@@ -55,16 +59,26 @@ body {
     .sidenav-overlay {
         opacity: 0 !important;
     }
+    #english-certificate .english-btn {
+        border-radius: 25px;
+        width: 60%;
+        line-height: 1.8rem;
+    }
+    #english-certificate div {
+        margin-top: 5rem;
+    }
     .student-form div,
     #english-section div,
-    #english-certificate div {
+    #english-certificate div,
+    .calendly-btn-container {
         display: flex;
         justify-content: center;
         text-align: center;
         flex-direction: column;
         align-items: center;
     }
-    .student-form button {
+    .student-form button,
+    .calendly-btn {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#977ef2+29,2955d9+82 */
         background: rgb(151, 126, 242) !important;
         /* Old browsers */
@@ -88,6 +102,24 @@ body {
         font-size: 1.2rem;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.48);
     }
+    .calendly-btn {
+        transition: all 0.5s;
+        animation-name: calendly;
+        animation-delay: 20s;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-direction: normal;
+    }
+    @keyframes calendly {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
     #english-section form {
         border-radius: 2rem;
         height: auto;
@@ -103,16 +135,17 @@ body {
         box-shadow: 30px 30px 80px -15px rgba(55, 84, 170, 0.5), -30px -30px 80px 0.5px rgba(255, 255, 255, 1), inset 10px 10px 20px 0px rgba(255, 255, 255, 0.5);
     }
     .english-btn {
-        width: 80% !important;
+        min-width: 80% !important;
+        height: auto !important;
         margin: 1rem 0;
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#77ce06+0,05b5bf+100 */
-        background: rgb(119, 206, 6);
+        background: rgb(70, 124, 0);
         /* Old browsers */
-        background: -moz-linear-gradient( -45deg, rgba(119, 206, 6, 1) 0%, rgba(5, 181, 191, 1) 100%);
+        background: -moz-linear-gradient( -45deg, rgba(70, 124, 0, 1) 0%, rgba(5, 181, 191, 1) 100%);
         /* FF3.6-15 */
-        background: -webkit-linear-gradient( -45deg, rgba(119, 206, 6, 1) 0%, rgba(5, 181, 191, 1) 100%);
+        background: -webkit-linear-gradient( -45deg, rgba(70, 124, 0, 1) 0%, rgba(5, 181, 191, 1) 100%);
         /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient( 135deg, rgba(119, 206, 6, 1) 0%, rgba(5, 181, 191, 1) 100%);
+        background: linear-gradient( 135deg, rgba(70, 124, 0, 1) 0%, rgba(5, 181, 191, 1) 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#77ce06', endColorstr='#05b5bf', GradientType=1);
         /* IE6-9 fallback on horizontal gradient */

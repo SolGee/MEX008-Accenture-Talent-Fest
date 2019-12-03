@@ -5,7 +5,8 @@ class RequirementsCheckout extends Component {
   render() {
     return (
       <section>
-        <h2>Elige el registro que necesitas cubrir</h2>
+        <h2>Paso a paso</h2>
+        <h3>1. Requisitos Básicos</h3>
 
         <form action='#'>
           <p>
@@ -31,16 +32,21 @@ class RequirementsCheckout extends Component {
         <span>Acreditación de segundo idioma</span>
       </label>
     </p>
+  
           <Link to='/english-option'>
             <button
               class='btn waves-effect waves-light'
               type='submit'
               name='action'>
-              Modalidades de titulación
-              <i class='material-icons right'>send</i>
+              <i class='material-icons right'>star</i>
+              Recolecta recompensa
             </button>
           </Link>
         </form>
+        <h3>2. Modalidades de titulación</h3>
+        <label htmlFor=''>
+          </label>
+          <input type='text' value='Completa el primer paso para desbloquear esta opción' readonly />
       </section>
     );
   }
