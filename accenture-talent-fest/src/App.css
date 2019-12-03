@@ -77,7 +77,7 @@ main {
     #english-section div,
     #english-certificate div,
     .calendly-btn-container,
-    #login-section div {
+    #login-section div, .button-agree  {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -89,7 +89,7 @@ main {
     }
     .student-form button,
     .calendly-btn,
-    #login-section button {
+    #login-section button, .button-agree {
         background-color: #311b92 !important;
         height: 3rem !important;
         border-radius: 20rem !important;

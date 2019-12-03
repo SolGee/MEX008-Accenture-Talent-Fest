@@ -9,19 +9,19 @@ class ModalEnglish extends Component {
 
         <article>
             <p>
-                Deberás: <br/>
-                1. Acudir en el día, lugar y hora especificados. <br/>
-                2. Presentar comprobante de inscripción al examen. <br/>
-                3. Identificación oficial. <br/>
+                Deberás: <br/><br/>
+                1. Acudir en el día, lugar y hora especificados. <br/><br/>
+                2. Presentar comprobante de inscripción al examen. <br/><br/>
+                3. Identificación oficial. <br/><br/>
 
                 Se publicarán los resultados en un plazo máximo de veinte
                 días hábiles contados a partir de la fecha de aplicacion
                 del examen.
-            </p>
+            </p><br/>
 
         </article>
         <Link to="/requirements-checkout">
-        <button>Entendido</button>
+        <button className="button-agree">Entendido</button>
         </Link>
       </section>
     );
