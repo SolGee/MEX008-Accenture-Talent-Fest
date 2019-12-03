@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c7b00255d8c1dee84b0bf5f2e8ce2e5",
+    "revision": "ba671853f913c70a5d891755b6c6bd27",
     "url": "/MEX008-Accenture-Talent-Fest/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MEX008-Accenture-Talent-Fest/static/css/2.e315d21c.chunk.css"
   },
   {
-    "revision": "d0423ea347ef94d67953",
-    "url": "/MEX008-Accenture-Talent-Fest/static/css/main.71b3fefb.chunk.css"
+    "revision": "5238157b1480f2c8e277",
+    "url": "/MEX008-Accenture-Talent-Fest/static/css/main.5df9b99d.chunk.css"
   },
   {
     "revision": "bcfb940f0ab7d5499a5b",
     "url": "/MEX008-Accenture-Talent-Fest/static/js/2.2c5bdf77.chunk.js"
   },
   {
-    "revision": "d0423ea347ef94d67953",
-    "url": "/MEX008-Accenture-Talent-Fest/static/js/main.58647ae8.chunk.js"
+    "revision": "5238157b1480f2c8e277",
+    "url": "/MEX008-Accenture-Talent-Fest/static/js/main.af063445.chunk.js"
   },
   {
     "revision": "3c3ad50d287543ef8744",
