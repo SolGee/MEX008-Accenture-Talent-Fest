@@ -4,7 +4,7 @@
     "private": true,
     "homepage": "https://solgee.github.io/MEX008-Accenture-Talent-Fest/",
     "dependencies": {
-        "firebase": "^7.5.0",
+        "firebase": "^10.9.0",
         "materialize-css": "^1.0.0",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
